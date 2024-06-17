@@ -4,7 +4,7 @@ from . import views
 from .views import registration,login,frontoffice_data,firstfloor_data,firstsuit_data,secondsuit_data,secondfloor_data,thirdfloor_data
 from .views import lab_data,CT_data,MRI_data,Xray_data,OPD_data,OT_data,HR_data
 from .views import physiotherapy_data,dialysis_data,OPPharmacy_data,IPPharmacy_data
-from .views import emergency_room_data,MRD_data,recovery_ward_data,chemo_ward_data
+from .views import emergency_room_data,MRD_data,recovery_ward_data,chemo_ward_data,get_formula_data
 from .views import firstfloor_rawdata,firstsuit_rawdata,secondfloor_rawdata,secondsuit_rawdata,thirdfloor_rawdata,recoveryward_rawdata
 from .views import SICU_data,MICU_data,NICU_data,micu_rawdata,nicu_rawdata,sicu_rawdata,chemoward_rawdata,emergencyroom_rawdata
 from .views import availabilityofroomsandbeds,get_export_data,update_export_data,get_export_rawdata,update_export_rawdata
@@ -51,6 +51,7 @@ urlpatterns = [
     path('update-export-data/', update_export_data, name = 'update_export_data'),
     path('get_export_rawdata/', get_export_rawdata, name = 'get_export_rawdata'),
     path('update-export_rawdata/', update_export_rawdata, name = 'update_export_rawdata'),
+    path('formula-data/', get_formula_data, name='get_formula_data'),
     path('availabilityofroomsandbeds/<str:ward>/',availabilityofroomsandbeds, name = 'availabilityofroomsandbeds'),
 
 ]
