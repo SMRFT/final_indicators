@@ -48,9 +48,8 @@ INSTALLED_APPS = [
     'forms',
     'corsheaders',
     'rest_framework',
-    'django_extensions',
     'sslserver',
-
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
