@@ -307,9 +307,6 @@ sympy==1.12
 tabulate==0.8.9
 tensorboard==2.12.3
 tensorboard-data-server==0.7.1
-tensorflow==2.12.0
-tensorflow-intel==2.12.0
-tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.3.0
 terminado==0.17.0
 threadpoolctl==3.1.0
