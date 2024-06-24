@@ -339,7 +339,6 @@ Werkzeug==2.2.3
 whitenoise==6.4.0
 Whoosh==2.7.4
 widgetsnbextension==4.0.3
-wikipedia==1.4.0
 windows-curses==2.3.1
 wrapt==1.13.3
 xhtml2pdf==0.2.13
