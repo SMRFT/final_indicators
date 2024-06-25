@@ -1,5 +1,5 @@
 
-cffi ==1.16.0
+cffi 
 cryptography ==42.0.8
 Django == 4.1.13
 django-cors-headers ==4.3.1
