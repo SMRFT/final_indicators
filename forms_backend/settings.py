@@ -27,11 +27,11 @@ DEBUG = True
 
 # ALLOWED_HOSTS = []
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['15.207.192.151']
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',  # Add your frontend URL here
 ]
-
+SECURE_SSL_REDIRECT = True
 # Optional: Allow credentials (cookies, authorization headers, etc.) to be included in cross-origin requests
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_ALL_ORIGINS = True  # Allow requests from all origins
